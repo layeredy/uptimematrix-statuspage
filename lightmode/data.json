@@ -1,0 +1,70 @@
+{
+    "OverallStatus": "NoOverride",
+    "RandomOperationalMessage": true,
+    "Whitelabel": false,
+    "announcement": {
+      "text": "Your announcement goes here!"
+    },
+    "maintenanceAlerts": [
+      {
+        "end": "2024-09-18T12:00:00Z",
+        "message": "Demo maintenance (hide by disabling maintenanceAlerts in data.json!)",
+        "start": "2024-09-17T12:00:00Z",
+        "title": "Demo"
+      }
+    ],
+    "sections": {
+      "announcementBar": false,
+      "maintenanceAlerts": false,
+      "statusUpdates": false
+    },
+    "services": [
+      {
+        "categoryName": "Example 1",
+        "services": [
+          {
+            "serviceName": "Example service 1",
+            "status": "Operational"
+          }
+        ]
+      },
+      {
+        "categoryName": "Example 2",
+        "services": [
+          {
+            "serviceName": "Another example service 1",
+            "status": "Operational"
+          },
+          {
+            "serviceName": "Another example service 2",
+            "status": "Operational"
+          }
+        ]
+      },
+      {
+        "categoryName": "Example 3",
+        "services": [
+          {
+            "serviceName": "Again another example service 1",
+            "status": "Operational"
+          },
+          {
+            "serviceName": "Again another example service 2",
+            "status": "Operational"
+          },
+          {
+            "serviceName": "Finally another example service 3",
+            "status": "Operational"
+          }
+        ]
+      }
+    ],
+    "statusUpdates": [
+      {
+        "color": "#7a54f8",
+        "date": "2024-08-10T09:00:00Z",
+        "message": "We like playing uno... and developing software",
+        "title": "This is a demo site!"
+      }
+    ]
+  }

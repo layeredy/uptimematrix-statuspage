@@ -1,0 +1,128 @@
+body {
+    background-color: #3e3e3e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 50px; 
+}
+
+.container {
+    color: white;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-height: 50px;
+    display: block;
+    margin: 0 auto; 
+}
+
+#announcement-bar {
+    background-color: #867c28;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: none;
+}
+
+#overall-status {
+    font-size: 24px;
+    margin: 20px 0; 
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#services {
+    text-align: left;
+    margin: 30px 0; 
+}
+
+.service-group {
+    margin-bottom: 30px; 
+}
+
+.service-group h2 {
+    background-color: #5f5f5f;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+.service-list {
+    padding: 15px; 
+    margin-top: 10px;
+    border: 1px solid #6c6c6c;
+    border-radius: 5px;
+    background-color: #636161;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0; 
+}
+
+.service-status {
+    font-weight: bold;
+}
+
+.status-operational {
+    color: green;
+}
+
+.status-degraded {
+    color: orange;
+}
+
+.status-issue {
+    color: red;
+}
+
+.status-slow {
+    color: #ff9800;
+}
+
+.status-maintenance {
+    color: blue;
+}
+
+.status-unknown {
+    color: grey;
+}
+
+#maintenance-alerts, #status-updates {
+    margin: 30px 0; 
+    text-align: left;
+}
+
+.alert, .update {
+    padding: 15px; 
+    background-color: #71685c;
+    border: 1px solid #ad8a21;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+copyright {
+    font-size: 12px;
+    color: #888;
+    margin-top: 30px; 
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
