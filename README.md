@@ -8,7 +8,7 @@ This is the default status-page template for UptimeMatrix, the statuspage softwa
 
 Feel free to use this site as a template to create your own status-page, to sell themes, or to add features. 
 
-![screenshot](https://github.com/user-attachments/assets/8b089184-c663-49a9-ad2f-4a88e288f4c9)
+![screenshot](https://github.com/user-attachments/assets/15d7266e-6f9d-45c9-96f1-82294a6aaabd)
 
 > [!TIP]
 > Check out our other [open source](https://github.com/layeredy) projects!
